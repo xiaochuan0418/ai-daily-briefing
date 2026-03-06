@@ -69,12 +69,6 @@
   @keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
   .hero h1 { font-size: 32px; font-weight: 800; color: #fff; line-height: 1.2; margin-bottom: 6px; position: relative; }
   .hero .date-line { font-size: 15px; color: rgba(255,255,255,0.7); margin-bottom: 20px; position: relative; }
-  .hero .focus-box {
-    position: relative; background: rgba(255,255,255,0.1); backdrop-filter: blur(8px);
-    border-radius: 12px; padding: 16px 20px; border: 1px solid rgba(255,255,255,0.12);
-  }
-  .hero .focus-label { font-size: 11px; font-weight: 700; color: rgba(255,255,255,0.6); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
-  .hero .focus-text { font-size: 14px; color: rgba(255,255,255,0.9); line-height: 1.7; }
   .toc-card {
     background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px;
     margin-bottom: 28px; overflow: hidden; animation: fadeUp 0.5s ease-out 0.2s both; box-shadow: var(--shadow-sm);
@@ -224,42 +218,42 @@
   <div class="panel-body">
   <div class="toc-section s-model">
     <div class="toc-section-label"><span class="dot"></span>大模型动态</div>
-    <a class="toc-item" href="#d1"><span class="toc-idx">1</span><span class="toc-text">解放用户注意力：AI 编程助手 Cursor 上线自动化智能体模式</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d2"><span class="toc-idx">2</span><span class="toc-text">OpenAI GPT-5.4「原生操控电脑」实测封神：OpenClaw 天选模型来了</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d3"><span class="toc-idx">3</span><span class="toc-text">英伟达黄仁勋盛赞 OpenClaw AI 智能体：3 周普及程度超 Linux 30 年积累</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d4"><span class="toc-idx">4</span><span class="toc-text">小米官方“龙虾”智能体 Xiaomi miclaw 开启小范围封测：一句话操控手机、米家设备</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d5"><span class="toc-idx">5</span><span class="toc-text">浪潮源 Yuan3.0 Ultra 多模态基础大模型开源发布：万亿参数，企业级任务表现突出</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d1"><span class="toc-idx">1</span><span class="toc-text">全球首个鸿蒙座舱燃油车，东风日产天籁 · 鸿蒙座舱开启首次 OTA 升级</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d2"><span class="toc-idx">2</span><span class="toc-text">小米官方“龙虾”Xiaomi miclaw 封测答疑：仅是面向科技发烧友、极客用户的小规模测试性探索产品</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d3"><span class="toc-idx">3</span><span class="toc-text">Transformer 论文作者“菠萝哥”重造“龙虾”：Rust 搓出钢铁版，告别 OpenClaw 裸奔漏洞</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d4"><span class="toc-idx">4</span><span class="toc-text">梅赛德斯-AMG 改款 GT 双门轿跑路测图曝光：预估 2.0T 发动机爆 416 匹马力</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d5"><span class="toc-idx">5</span><span class="toc-text">亿万富翁科斯拉预言：AI 将胜任 80% 岗位，当今 5 岁儿童成年后无需为生存而工作</span><span class="toc-arrow">→</span></a>
   </div>
   <div class="toc-section s-hw">
     <div class="toc-section-label"><span class="dot"></span>硬件与基础设施</div>
-    <a class="toc-item" href="#d6"><span class="toc-idx">6</span><span class="toc-text">北大清华、长江存储等 9 方学者联合发文：要创立中国的 ASML，“十五五”目标初步完成全国产化的 7nm 生产线建设及试运行</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d7"><span class="toc-idx">7</span><span class="toc-text">长江存储首款 PCIe 5.0 商用消费级固态硬盘 PC550 发布：满载功耗低于 6W，最高 2TB 容量</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d8"><span class="toc-idx">8</span><span class="toc-text">TrendForce：预估 2026 年全球手机显示面板出货下滑 7.3%，结束连续增长势头</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d9"><span class="toc-idx">9</span><span class="toc-text">Optiscaler 游戏工具更新让 AMD 光线重组功能成功“偷家”英伟达</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d10"><span class="toc-idx">10</span><span class="toc-text">焕新极氪 009 官宣计划今年第二季度上市：全栈 900V 高压，新一代英伟达辅助驾驶芯片</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d6"><span class="toc-idx">6</span><span class="toc-text">小鹏 G6 超级增程轿跑 SUV 上市，18.68 万元</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d7"><span class="toc-idx">7</span><span class="toc-text">OPPO 在台对 Reno15 及 A6 系列指定产品涨价 2000~5000 新台币</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d8"><span class="toc-idx">8</span><span class="toc-text">小米 Book 笔记本电脑新品爆料：外壳做工精致，超轻 + 续航 + 性能兼备</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d9"><span class="toc-idx">9</span><span class="toc-text">把20亿参数装进胸针？高通补齐了个人AI生态的最后一块拼图</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d10"><span class="toc-idx">10</span><span class="toc-text">英伟达放弃GPU上LPU：新推理芯片被曝Groq即买即用，OpenAI第一个吃螃蟹</span><span class="toc-arrow">→</span></a>
   </div>
   <div class="toc-section s-biz">
     <div class="toc-section-label"><span class="dot"></span>行业趋势</div>
-    <a class="toc-item" href="#d11"><span class="toc-idx">11</span><span class="toc-text">苹果 AI 生态关键拼图，其智能家居中枢 HomePad 有望今秋发布</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d12"><span class="toc-idx">12</span><span class="toc-text">贾跃亭及乐视控股等被恢复执行 14.1 亿</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d13"><span class="toc-idx">13</span><span class="toc-text">苹果美国为近期下单用户免费升级 2026 款 M5 系列 MacBook</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d14"><span class="toc-idx">14</span><span class="toc-text">石头 A30 Pro 2.0 洗地机 3 月 10 日上市：首创超能暴风洗，首发价 2399 元</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d15"><span class="toc-idx">15</span><span class="toc-text">苹果 iPhone 17e 手机搭载 8GB 内存，与 16e 相同</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d11"><span class="toc-idx">11</span><span class="toc-text">华为更多机型开启 HarmonyOS 6.0.0.328 花粉 Beta 版尝鲜升级，含 Mate 60、Pura 70 等系列</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d12"><span class="toc-idx">12</span><span class="toc-text">杭州市市长姚高员：“六小龙”已有四家冲刺上市，将打造科技“小龙”孵化地</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d13"><span class="toc-idx">13</span><span class="toc-text">大厂抢人才：字节跳动启动最大规模转正实习生招聘，腾讯放话招 1 万人，AI 方向是重点</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d14"><span class="toc-idx">14</span><span class="toc-text">谷歌宣布 2030 年前投入至少 5000 万美元，遏制“超级污染物”</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d15"><span class="toc-idx">15</span><span class="toc-text">绿源推出 D50 休闲三轮车：支持 AI 智能语音交互、蓝牙 / App / 钥匙共享 / 机械钥匙解锁</span><span class="toc-arrow">→</span></a>
   </div>
   <div class="toc-section s-gov">
     <div class="toc-section-label"><span class="dot"></span>国际与治理</div>
-    <a class="toc-item" href="#d16"><span class="toc-idx">16</span><span class="toc-text">Meta 妥协，允许对手聊天机器人在欧洲、巴西通过付费 API 接入 WhatsApp</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d17"><span class="toc-idx">17</span><span class="toc-text">全国政协委员袁小彬：建议取消私家车年审制度，实施远程监测</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d18"><span class="toc-idx">18</span><span class="toc-text">格力电器董明珠：不主张加班，许多简单粗重的劳动已经被机器解放</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d19"><span class="toc-idx">19</span><span class="toc-text">Anthropic 回应被美国列为国家安全风险实体：将以象征性成本向政府提供 AI 模型及工程师支持</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d16"><span class="toc-idx">16</span><span class="toc-text">别克至境 E7 大五座 SUV 内饰亮相：零重力躺椅、银离子保鲜冷暖箱、二排影院屏等</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d17"><span class="toc-idx">17</span><span class="toc-text">消息称 OPPO Reno 下一代考虑新增超大杯 Pro Max</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d18"><span class="toc-idx">18</span><span class="toc-text">Meta AI 智能眼镜陷隐私诉讼，用户敏感视频疑遭外包审核</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d19"><span class="toc-idx">19</span><span class="toc-text">海淀放大招！90亿资金+近30条政策，重磅释放三大科创关键信号</span><span class="toc-arrow">→</span></a>
   </div>
   <div class="toc-section s-acad">
     <div class="toc-section-label"><span class="dot"></span>学术会议</div>
-    <a class="toc-item" href="#d20"><span class="toc-idx">20</span><span class="toc-text">“全球首款全金属一体化 5G 手机”：传音展示 Tecno Pova Metal Tonino Lamborghini Edition</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d21"><span class="toc-idx">21</span><span class="toc-text">悄然发力：英特尔全面启动 Xe3P 图形架构开源驱动适配工作</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d22"><span class="toc-idx">22</span><span class="toc-text">中兴发布全球首款 Al + Wi-Fi 8 室内 CPE 及全球首款毫米波室外 5G-A CPE，摘获三项 MWC26 GLOMO 国际大奖</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d23"><span class="toc-idx">23</span><span class="toc-text">南亚科技启动定制化 AI 内存研发，有望今年下半年公布进展</span><span class="toc-arrow">→</span></a>
-    <a class="toc-item" href="#d24"><span class="toc-idx">24</span><span class="toc-text">华为发布业界首款 Wi-Fi 7 三频 FTTR 全光家庭解决方案：全屋 3000Mbps、10ms 超低时延</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d20"><span class="toc-idx">20</span><span class="toc-text">国家发改委主任郑栅洁：“十五五”末 AI 相关产业规模将增长到 10 万亿元以上</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d21"><span class="toc-idx">21</span><span class="toc-text">飞行时间 13 年可缩至 6.5 年：MIT 提案让 SpaceX 星舰执行美国探索天王星任务</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d22"><span class="toc-idx">22</span><span class="toc-text">黑马图像模型被Nano Banana技术负责人点赞，15人华人小队，DDIM之父&CVPR最佳论文作者带队</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d23"><span class="toc-idx">23</span><span class="toc-text">arXiv创始人亲测：水论文这一块，Grok最强，Claude最不配合</span><span class="toc-arrow">→</span></a>
+    <a class="toc-item" href="#d24"><span class="toc-idx">24</span><span class="toc-text">直击2026 MWC：物理AI的“中国时刻”已经来到</span><span class="toc-arrow">→</span></a>
   </div>
   </div>
 </div>
@@ -268,10 +262,6 @@
     <div class="hero-badge"><span class="pulse"></span> DAILY BRIEFING</div>
     <h1>AI 每日简报</h1>
     <div class="date-line">2026年3月6日 · 星期五</div>
-    <div class="focus-box">
-      <div class="focus-label">Today's Focus</div>
-      <div class="focus-text">解放用户注意力：AI 编程助手 Cursor 上线自动化智能体模式；OpenAI GPT-5.4「原生操控电脑」实测封神：OpenClaw 天选模型来了；英伟达黄仁勋盛赞 OpenClaw AI 智能体：3 周普及程度超 Linux 30 年积累</div>
-    </div>
   </div>
   <div class="detail-area">
       <div class="section-divider sd-model">
@@ -285,60 +275,60 @@
   <div class="news-card c-model" id="d1">
     <div class="news-top">
       <div class="news-num">1</div>
-      <div class="news-title">解放用户注意力：AI 编程助手 Cursor 上线自动化智能体模式</div>
+      <div class="news-title">全球首个鸿蒙座舱燃油车，东风日产天籁 · 鸿蒙座舱开启首次 OTA 升级</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，Cursor 为解决工程师管理众多编程智能体时的精力瓶颈问题，今天（3 月 6 日）宣布推出 Automations 工具，打破了传统的“提示与监控”模式，通过代码库更新、Slack 消息或定时器自动触发智能体。IT之家援引博文介绍，随着智能体编程的迅速普及，软件工程师的工作变得异常复杂。单名工程师目前可能需要同时监督数十个编程智能体，并根据需求启动和引导不同的流程，
+      IT之家 3 月 6 日消息，全球首个鸿蒙座舱燃油车 —— 东风日产天籁 · 鸿蒙座舱昨日开启首次 OTA 升级，版本号为 HarmonySpace 5.0.1。IT之家整理如下：一、AI 智慧语音助手（新增）AI 大模型多模应答（新增）AI 用车顾问（升级）AI 带娃高手（新增）AI 生活管家（升级）AI 工作助理（新增）高频功能四音区免唤醒（新增）口语化控车（新增）影音模糊搜二、AI 级智慧语
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%A7%A3%E6%94%BE%E7%94%A8%E6%88%B7%E6%B3%A8%E6%84%8F%E5%8A%9B%EF%BC%9AAI%20%E7%BC%96%E7%A8%8B%E5%8A%A9%E6%89%8B%20Cursor%20%E4%B8%8A%E7%BA%BF%E8%87%AA%E5%8A%A8%E5%8C%96%E6%99%BA%E8%83%BD%E4%BD%93%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E9%B8%BF%E8%92%99%E5%BA%A7%E8%88%B1%E7%87%83%E6%B2%B9%E8%BD%A6%EF%BC%8C%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7%E5%A4%A9%E7%B1%81%20%C2%B7%20%E9%B8%BF%E8%92%99%E5%BA%A7%E8%88%B1%E5%BC%80%E5%90%AF%E9%A6%96%E6%AC%A1%20OTA%20%E5%8D%87%E7%BA%A7" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-model" id="d2">
     <div class="news-top">
       <div class="news-num">2</div>
-      <div class="news-title">OpenAI GPT-5.4「原生操控电脑」实测封神：OpenClaw 天选模型来了</div>
+      <div class="news-title">小米官方“龙虾”Xiaomi miclaw 封测答疑：仅是面向科技发烧友、极客用户的小规模测试性探索产品</div>
     </div>
     <div class="news-body">
-      OpenAI 深夜发布 GPT-5.4，首次实现原生电脑操控能力，实测惊艳，几乎可以操作电脑上所有应用！凌晨两点，OpenAI 毫无预兆地丢出了 GPT-5.4。这个模型，即将改变 2026 年整个AIAgent 格局！这一次，最核心的能力终于呼之欲出：原生操控电脑。Agent 能力是 2026 年 AI 进化的主线任务，在实测后，一个深刻的感受：GPT-5.4 可能是 2026 年目前为止，最适
+      IT之家 3 月 6 日消息，小米今日官宣 Xiaomi miclaw，这是小米探索 Agent 的一小步，它是基于小米 MiMo 大模型构建的 AI 交互测试产品，今天开始小范围封闭测试。▲ 图源：小米技术微博 | 场景示例IT之家注意到，小米技术官方今日针对 Xiaomi miclaw 此次封测进行了答疑，针对什么是 Xiaomi miclaw、是否可以回退 / 卸载、使用的模型、是否会使用个
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=OpenAI%20GPT-5.4%E3%80%8C%E5%8E%9F%E7%94%9F%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91%E3%80%8D%E5%AE%9E%E6%B5%8B%E5%B0%81%E7%A5%9E%EF%BC%9AOpenClaw%20%E5%A4%A9%E9%80%89%E6%A8%A1%E5%9E%8B%E6%9D%A5%E4%BA%86" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%B0%8F%E7%B1%B3%E5%AE%98%E6%96%B9%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9DXiaomi%20miclaw%20%E5%B0%81%E6%B5%8B%E7%AD%94%E7%96%91%EF%BC%9A%E4%BB%85%E6%98%AF%E9%9D%A2%E5%90%91%E7%A7%91%E6%8A%80%E5%8F%91%E7%83%A7%E5%8F%8B%E3%80%81%E6%9E%81%E5%AE%A2%E7%94%A8%E6%88%B7%E7%9A%84%E5%B0%8F%E8%A7%84%E6%A8%A1%E6%B5%8B%E8%AF%95%E6%80%A7%E6%8E%A2%E7%B4%A2%E4%BA%A7%E5%93%81" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-model" id="d3">
     <div class="news-top">
       <div class="news-num">3</div>
-      <div class="news-title">英伟达黄仁勋盛赞 OpenClaw AI 智能体：3 周普及程度超 Linux 30 年积累</div>
+      <div class="news-title">Transformer 论文作者“菠萝哥”重造“龙虾”：Rust 搓出钢铁版，告别 OpenClaw 裸奔漏洞</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，科技媒体 Wccftech 昨日（3 月 5 日）发布博文，报道称在摩根士丹利会议上，英伟达首席执行官黄仁勋指出，智能体 AI（Agentic AI）正迎来重大历史拐点。黄仁勋高度评价开源软件 OpenClaw，称其为“我们这个时代最重要的软件发布”，并强调 Linux 操作系统花费了约 30 年才达到当前的普及水平，而 OpenClaw 仅用短短 3 周就实现了全面
+      有多少龙虾在互联网上裸奔？AI 智能体带着你的密码和 API 密钥暴露给全网。Transformer 作者Illia Polosukhin看不下去了。出手从零重构了安全版龙虾：IronClaw。功能OpenClawIronClaw核心语言PythonRust凭证处理直接暴露给 AI 智能体加密存储，LLM 无法访问工具执行在主环境中运行WASM 沙箱隔离运行部署环境标准服务器可信执行环境（TEE）
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%BB%84%E4%BB%81%E5%8B%8B%E7%9B%9B%E8%B5%9E%20OpenClaw%20AI%20%E6%99%BA%E8%83%BD%E4%BD%93%EF%BC%9A3%20%E5%91%A8%E6%99%AE%E5%8F%8A%E7%A8%8B%E5%BA%A6%E8%B6%85%20Linux%2030%20%E5%B9%B4%E7%A7%AF%E7%B4%AF" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=Transformer%20%E8%AE%BA%E6%96%87%E4%BD%9C%E8%80%85%E2%80%9C%E8%8F%A0%E8%90%9D%E5%93%A5%E2%80%9D%E9%87%8D%E9%80%A0%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%EF%BC%9ARust%20%E6%90%93%E5%87%BA%E9%92%A2%E9%93%81%E7%89%88%EF%BC%8C%E5%91%8A%E5%88%AB%20OpenClaw%20%E8%A3%B8%E5%A5%94%E6%BC%8F%E6%B4%9E" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-model" id="d4">
     <div class="news-top">
       <div class="news-num">4</div>
-      <div class="news-title">小米官方“龙虾”智能体 Xiaomi miclaw 开启小范围封测：一句话操控手机、米家设备</div>
+      <div class="news-title">梅赛德斯-AMG 改款 GT 双门轿跑路测图曝光：预估 2.0T 发动机爆 416 匹马力</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，小米今日官宣 Xiaomi miclaw，这是小米探索 Agent 的一小步，它是基于小米 MiMo 大模型构建的 AI 交互测试产品，今天开始小范围封闭测试。根据小米官方介绍，Xiaomi miclaw 能让手机成为 AI 的工具，在理解你的意图和给予授权后，调用一方应用、生态能力，也能自主选择系统级工具，完成你的命令。它能认识你、记住你，也能判断你一句模糊的任务，
+      IT之家 3 月 6 日消息，汽车媒体 CarScoops 今天（3 月 6 日）发布博文，分享了一组抓拍的路测图，展示了梅赛德斯-AMG 改款 GT 双门轿跑，该车预计于 2027 年亮相。外观方面，该车换装了全新的前保险杠和临时大灯，量产版预估融入奔驰标志性的星形元素。原型车微调了进气格栅，呈现出更加规整的椭圆形，设计师同时优化了下方的进气口，让其整体风格更贴近现款 SL 车型。内饰方面，本次
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E5%B0%8F%E7%B1%B3%E5%AE%98%E6%96%B9%E2%80%9C%E9%BE%99%E8%99%BE%E2%80%9D%E6%99%BA%E8%83%BD%E4%BD%93%20Xiaomi%20miclaw%20%E5%BC%80%E5%90%AF%E5%B0%8F%E8%8C%83%E5%9B%B4%E5%B0%81%E6%B5%8B%EF%BC%9A%E4%B8%80%E5%8F%A5%E8%AF%9D%E6%93%8D%E6%8E%A7%E6%89%8B%E6%9C%BA%E3%80%81%E7%B1%B3%E5%AE%B6%E8%AE%BE%E5%A4%87" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E6%A2%85%E8%B5%9B%E5%BE%B7%E6%96%AF-AMG%20%E6%94%B9%E6%AC%BE%20GT%20%E5%8F%8C%E9%97%A8%E8%BD%BF%E8%B7%91%E8%B7%AF%E6%B5%8B%E5%9B%BE%E6%9B%9D%E5%85%89%EF%BC%9A%E9%A2%84%E4%BC%B0%202.0T%20%E5%8F%91%E5%8A%A8%E6%9C%BA%E7%88%86%20416%20%E5%8C%B9%E9%A9%AC%E5%8A%9B" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-model" id="d5">
     <div class="news-top">
       <div class="news-num">5</div>
-      <div class="news-title">浪潮源 Yuan3.0 Ultra 多模态基础大模型开源发布：万亿参数，企业级任务表现突出</div>
+      <div class="news-title">亿万富翁科斯拉预言：AI 将胜任 80% 岗位，当今 5 岁儿童成年后无需为生存而工作</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，浪潮旗下YuanLab.ai团队今日开源发布源 Yuan3.0 Ultra 多模态基础大模型，这是一款面向万亿参数规模打造的旗舰模型。Yuan3.0 Ultra 将 MoE 大模型的训练效率优化系统性引入模型结构设计之中，并围绕企业应用及智能体工具调用等方面开展了深度优化，在多模态文档理解、检索增强生成（RAG）、表格数据分析、内容摘要与工具调用等企业级任务中表现突出
+      IT之家 3 月 6 日消息，在接受《财富》杂志采访时，OpenAI 早期机构投资人、亿万富翁维诺德 · 科斯拉（Vinod Khosla）抛出惊人预测：当今 5 岁儿童成年后将无需再为生存而工作。IT之家援引博文介绍，科斯拉指出，人工智能未来将具备胜任 80% 工作岗位的能力，涵盖从内科医生、放射科医生到会计师和销售员等各个领域，这种大规模的 AI 替代将直接把劳动力成本降至零。因此，年轻一代未
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E6%B5%AA%E6%BD%AE%E6%BA%90%20Yuan3.0%20Ultra%20%E5%A4%9A%E6%A8%A1%E6%80%81%E5%9F%BA%E7%A1%80%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BC%80%E6%BA%90%E5%8F%91%E5%B8%83%EF%BC%9A%E4%B8%87%E4%BA%BF%E5%8F%82%E6%95%B0%EF%BC%8C%E4%BC%81%E4%B8%9A%E7%BA%A7%E4%BB%BB%E5%8A%A1%E8%A1%A8%E7%8E%B0%E7%AA%81%E5%87%BA" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E4%BA%BF%E4%B8%87%E5%AF%8C%E7%BF%81%E7%A7%91%E6%96%AF%E6%8B%89%E9%A2%84%E8%A8%80%EF%BC%9AAI%20%E5%B0%86%E8%83%9C%E4%BB%BB%2080%25%20%E5%B2%97%E4%BD%8D%EF%BC%8C%E5%BD%93%E4%BB%8A%205%20%E5%B2%81%E5%84%BF%E7%AB%A5%E6%88%90%E5%B9%B4%E5%90%8E%E6%97%A0%E9%9C%80%E4%B8%BA%E7%94%9F%E5%AD%98%E8%80%8C%E5%B7%A5%E4%BD%9C" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
@@ -357,60 +347,60 @@
   <div class="news-card c-hw" id="d6">
     <div class="news-top">
       <div class="news-num">6</div>
-      <div class="news-title">北大清华、长江存储等 9 方学者联合发文：要创立中国的 ASML，“十五五”目标初步完成全国产化的 7nm 生产线建设及试运行</div>
+      <div class="news-title">小鹏 G6 超级增程轿跑 SUV 上市，18.68 万元</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，中国多家半导体龙头企业高管和学者集体撰文发声，在 2026 年 2 月 13 日刊出的最新一期《科技导报》中，北大清华、长江存储等 9 方人士发表联合论文《构建自主可控的集成电路产业体系》。这篇论文的作者包括北京大学集成电路学院名誉院长、中芯国际创始人之一王阳元，以及北方华创董事长赵晋荣、长江存储董事长陈南翔、华大九天董事长刘伟平等 9 位业内人士和学者。论文提出“十
+      IT之家 3 月 6 日消息，今天下午，小鹏 G6 超级增程轿跑 SUV 正式上市，新车宣称“六项全能一步到位”，售价为 18.68 万元。根据介绍，新车拥有如下特性：1704km 全球最长综合续航，430km 同级最长纯电续航；2250TOPS 全球第一有效算力，将搭载第二代 VLA；同级唯一 800V+5C 高压平台，12 分钟充电 314 公里；85.6% 同级最大得房率，头部空间超 1 米
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E5%8C%97%E5%A4%A7%E6%B8%85%E5%8D%8E%E3%80%81%E9%95%BF%E6%B1%9F%E5%AD%98%E5%82%A8%E7%AD%89%209%20%E6%96%B9%E5%AD%A6%E8%80%85%E8%81%94%E5%90%88%E5%8F%91%E6%96%87%EF%BC%9A%E8%A6%81%E5%88%9B%E7%AB%8B%E4%B8%AD%E5%9B%BD%E7%9A%84%20ASML%EF%BC%8C%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E7%9B%AE%E6%A0%87%E5%88%9D%E6%AD%A5%E5%AE%8C%E6%88%90%E5%85%A8%E5%9B%BD%E4%BA%A7%E5%8C%96%E7%9A%84%207nm%20%E7%94%9F%E4%BA%A7%E7%BA%BF%E5%BB%BA%E8%AE%BE%E5%8F%8A%E8%AF%95%E8%BF%90%E8%A1%8C" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%B0%8F%E9%B9%8F%20G6%20%E8%B6%85%E7%BA%A7%E5%A2%9E%E7%A8%8B%E8%BD%BF%E8%B7%91%20SUV%20%E4%B8%8A%E5%B8%82%EF%BC%8C18.68%20%E4%B8%87%E5%85%83" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-hw" id="d7">
     <div class="news-top">
       <div class="news-num">7</div>
-      <div class="news-title">长江存储首款 PCIe 5.0 商用消费级固态硬盘 PC550 发布：满载功耗低于 6W，最高 2TB 容量</div>
+      <div class="news-title">OPPO 在台对 Reno15 及 A6 系列指定产品涨价 2000~5000 新台币</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，长江存储官网日前上线了旗下首款 PCIe 5.0 商用 SSD —— PC550。据长江存储官网介绍，PC550 是长江存储专为 AI PC 打造的 PCIe 5.0 商用消费级固态硬盘。它采用 X4-9070 闪存芯片及四通道方案，引入多命名空间管理与谷底预测算法技术，在大幅提升性能的同时，显著降低了功耗与发热。PC550 可选 512GB、1TB、2TB 三个容量
+      IT之家 3 月 6 日消息，OPPO 中国台湾地区服务团队今日宣布，自 3 月 11 日起针对 Reno15 系列及 A6 系列智能手机指定产品进行建议售价结构性调整，调整幅度约 2000~5000 新台币（IT之家注：现汇率约合 441.8 ~ 1105 元人民币）。OPPO 表示，此次调价源自“2026 年全球半导体与存储器成本大幅波动及供应链结构性缺货”带来的严峻挑战。对于 3 月 11 
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E9%95%BF%E6%B1%9F%E5%AD%98%E5%82%A8%E9%A6%96%E6%AC%BE%20PCIe%205.0%20%E5%95%86%E7%94%A8%E6%B6%88%E8%B4%B9%E7%BA%A7%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98%20PC550%20%E5%8F%91%E5%B8%83%EF%BC%9A%E6%BB%A1%E8%BD%BD%E5%8A%9F%E8%80%97%E4%BD%8E%E4%BA%8E%206W%EF%BC%8C%E6%9C%80%E9%AB%98%202TB%20%E5%AE%B9%E9%87%8F" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=OPPO%20%E5%9C%A8%E5%8F%B0%E5%AF%B9%20Reno15%20%E5%8F%8A%20A6%20%E7%B3%BB%E5%88%97%E6%8C%87%E5%AE%9A%E4%BA%A7%E5%93%81%E6%B6%A8%E4%BB%B7%202000~5000%20%E6%96%B0%E5%8F%B0%E5%B8%81" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-hw" id="d8">
     <div class="news-top">
       <div class="news-num">8</div>
-      <div class="news-title">TrendForce：预估 2026 年全球手机显示面板出货下滑 7.3%，结束连续增长势头</div>
+      <div class="news-title">小米 Book 笔记本电脑新品爆料：外壳做工精致，超轻 + 续航 + 性能兼备</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，TrendForce 集邦咨询昨日宣布，最新调查显示 2026 年全球手机显示面板出货规模将止步于 21.43 亿片左右，同比出现 7.3% 下滑，结束 2023 年起的持续增长势头。▲ 图源：TrendForce在类型方面，由于存储器“超级周期”主要影响中低端智能手机产品、OLED 技术成本不断下行，机构预测AMOLED 的出货占比有望从去年的 41.2% 升至 4
+      IT之家 3 月 6 日消息，笔吧评测室 @奥拉猪汪 今日表示他已经收到了小米尚未发布的新一代超轻笔记本电脑新品，网友猜测可能会采用 Xiaomi Book Air 之类的命名。他表示，小米新一代笔记本电脑外壳做工十分精致，不禁使其联想到某位“故人”，属于“哇！工艺品！”的水平。他还暗示，这一代小米笔记本电脑新品将采用 Panther Lake 处理器，定位较高，可兼顾重量 + 续航 + 性能三大
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=TrendForce%EF%BC%9A%E9%A2%84%E4%BC%B0%202026%20%E5%B9%B4%E5%85%A8%E7%90%83%E6%89%8B%E6%9C%BA%E6%98%BE%E7%A4%BA%E9%9D%A2%E6%9D%BF%E5%87%BA%E8%B4%A7%E4%B8%8B%E6%BB%91%207.3%25%EF%BC%8C%E7%BB%93%E6%9D%9F%E8%BF%9E%E7%BB%AD%E5%A2%9E%E9%95%BF%E5%8A%BF%E5%A4%B4" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%B0%8F%E7%B1%B3%20Book%20%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91%E6%96%B0%E5%93%81%E7%88%86%E6%96%99%EF%BC%9A%E5%A4%96%E5%A3%B3%E5%81%9A%E5%B7%A5%E7%B2%BE%E8%87%B4%EF%BC%8C%E8%B6%85%E8%BD%BB%20%2B%20%E7%BB%AD%E8%88%AA%20%2B%20%E6%80%A7%E8%83%BD%E5%85%BC%E5%A4%87" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-hw" id="d9">
     <div class="news-top">
       <div class="news-num">9</div>
-      <div class="news-title">Optiscaler 游戏工具更新让 AMD 光线重组功能成功“偷家”英伟达</div>
+      <div class="news-title">把20亿参数装进胸针？高通补齐了个人AI生态的最后一块拼图</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，科技媒体 Wccftech 昨日（3 月 5 日）发布博文，报道称 Mod 工具 Optiscaler 升级 0.9.0-pre10 版本，在《赛博朋克 2077》游戏中，成功用 AMD 的“光线重组”（Ray Regeneration）技术，替换了英伟达的同类功能。开发者 DarkHelmet 在 Optiscaler 新测试版中，初步支持 AMD 的“光线重组”技
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=Optiscaler%20%E6%B8%B8%E6%88%8F%E5%B7%A5%E5%85%B7%E6%9B%B4%E6%96%B0%E8%AE%A9%20AMD%20%E5%85%89%E7%BA%BF%E9%87%8D%E7%BB%84%E5%8A%9F%E8%83%BD%E6%88%90%E5%8A%9F%E2%80%9C%E5%81%B7%E5%AE%B6%E2%80%9D%E8%8B%B1%E4%BC%9F%E8%BE%BE" target="_blank" rel="noopener">搜索原文 →</a>
+      
+      <div class="news-tags"><span class="tag">量子位</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=%E6%8A%8A20%E4%BA%BF%E5%8F%82%E6%95%B0%E8%A3%85%E8%BF%9B%E8%83%B8%E9%92%88%EF%BC%9F%E9%AB%98%E9%80%9A%E8%A1%A5%E9%BD%90%E4%BA%86%E4%B8%AA%E4%BA%BAAI%E7%94%9F%E6%80%81%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E6%8B%BC%E5%9B%BE" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-hw" id="d10">
     <div class="news-top">
       <div class="news-num">10</div>
-      <div class="news-title">焕新极氪 009 官宣计划今年第二季度上市：全栈 900V 高压，新一代英伟达辅助驾驶芯片</div>
+      <div class="news-title">英伟达放弃GPU上LPU：新推理芯片被曝Groq即买即用，OpenAI第一个吃螃蟹</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，极氪官方今日发布极氪 009 车型更新计划预告，焕新极氪 009 计划于今年第二季度上市。焕新车型将引入全栈 900V 高压架构，搭载新一代英伟达 DRIVE Thor-U 辅助驾驶芯片。具体产品配置，以最终上市发布信息为准。同时在本次产品焕新之际，极氪官方特别为在售的极氪 009 推出“7 年超低息或前 5 年 0 息”等限时礼遇。目前在售极氪 009 纯电 MPV
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E7%84%95%E6%96%B0%E6%9E%81%E6%B0%AA%20009%20%E5%AE%98%E5%AE%A3%E8%AE%A1%E5%88%92%E4%BB%8A%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E4%B8%8A%E5%B8%82%EF%BC%9A%E5%85%A8%E6%A0%88%20900V%20%E9%AB%98%E5%8E%8B%EF%BC%8C%E6%96%B0%E4%B8%80%E4%BB%A3%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E8%8A%AF%E7%89%87" target="_blank" rel="noopener">搜索原文 →</a>
+      
+      <div class="news-tags"><span class="tag">量子位</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%94%BE%E5%BC%83GPU%E4%B8%8ALPU%EF%BC%9A%E6%96%B0%E6%8E%A8%E7%90%86%E8%8A%AF%E7%89%87%E8%A2%AB%E6%9B%9DGroq%E5%8D%B3%E4%B9%B0%E5%8D%B3%E7%94%A8%EF%BC%8COpenAI%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%90%83%E8%9E%83%E8%9F%B9" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
@@ -429,60 +419,60 @@
   <div class="news-card c-biz" id="d11">
     <div class="news-top">
       <div class="news-num">11</div>
-      <div class="news-title">苹果 AI 生态关键拼图，其智能家居中枢 HomePad 有望今秋发布</div>
+      <div class="news-title">华为更多机型开启 HarmonyOS 6.0.0.328 花粉 Beta 版尝鲜升级，含 Mate 60、Pura 70 等系列</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，消息源 @Kosutami_Ito 今天（3 月 6 日）在 X 平台发布推文，爆料称苹果公司有望于 2026 年秋季推出智能家居中枢设备（暂称 HomeHub 或 HomePad）。IT之家援引 Appleinsider 媒体报道，HomePad 定位为一款主打低价策略的共享平板设备，用户可将其放置在家庭各处，随时通过屏幕访问小组件操控 Apple Home（家庭）
+      IT之家 3 月 6 日消息，华为更多机型今日开启了鸿蒙HarmonyOS 6.0.0.328 花粉 Beta 版尝鲜升级，含 Mate 60 系列、Pura 70 系列等。HUAWEI Mate 60 系列HUAWEI Pura 70 系列HUAWEI nova 15系列HUAWEI MatePad Air 2025HUAWEI MatePad 11.5 S 2025 系列HUAWEI Mate
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%8B%B9%E6%9E%9C%20AI%20%E7%94%9F%E6%80%81%E5%85%B3%E9%94%AE%E6%8B%BC%E5%9B%BE%EF%BC%8C%E5%85%B6%E6%99%BA%E8%83%BD%E5%AE%B6%E5%B1%85%E4%B8%AD%E6%9E%A2%20HomePad%20%E6%9C%89%E6%9C%9B%E4%BB%8A%E7%A7%8B%E5%8F%91%E5%B8%83" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%8D%8E%E4%B8%BA%E6%9B%B4%E5%A4%9A%E6%9C%BA%E5%9E%8B%E5%BC%80%E5%90%AF%20HarmonyOS%206.0.0.328%20%E8%8A%B1%E7%B2%89%20Beta%20%E7%89%88%E5%B0%9D%E9%B2%9C%E5%8D%87%E7%BA%A7%EF%BC%8C%E5%90%AB%20Mate%2060%E3%80%81Pura%2070%20%E7%AD%89%E7%B3%BB%E5%88%97" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-biz" id="d12">
     <div class="news-top">
       <div class="news-num">12</div>
-      <div class="news-title">贾跃亭及乐视控股等被恢复执行 14.1 亿</div>
+      <div class="news-title">杭州市市长姚高员：“六小龙”已有四家冲刺上市，将打造科技“小龙”孵化地</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，乐视控股（北京）有限公司、贾跃亭等 3 月 5 日新增一则恢复执行信息，执行标的 14.1 亿余元，执行法院为北京市第三中级人民法院。据悉，乐视控股（北京）有限公司成立于 2011 年 9 月，法定代表人为吴孟，注册资本 10 亿人民币，经营范围包括项目投资、投资管理、资产管理、投资咨询等。股东信息显示，该公司由贾跃亭、汇鑫资产管理（天津）合伙企业（有限合伙）、晨曦资
+      IT之家 3 月 6 日消息，据证券时报报道，全国人大代表、杭州市市长姚高员 3 月 6 日在浙江省代表团开放团组会议上透露，杭州“六小龙”企业中目前有四家在冲刺上市，大部分的企业去年的营收或产值都保持了三位数的增幅。姚高员还称，杭州设立了最长投资期 20 年的“润苗基金”，长期陪伴科技型初创企业的成长。“我们想通过一系列的组合拳，把杭州打造成科技‘小龙’的孵化地。”IT之家注：杭州“六小龙”通常
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%B4%BE%E8%B7%83%E4%BA%AD%E5%8F%8A%E4%B9%90%E8%A7%86%E6%8E%A7%E8%82%A1%E7%AD%89%E8%A2%AB%E6%81%A2%E5%A4%8D%E6%89%A7%E8%A1%8C%2014.1%20%E4%BA%BF" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E6%9D%AD%E5%B7%9E%E5%B8%82%E5%B8%82%E9%95%BF%E5%A7%9A%E9%AB%98%E5%91%98%EF%BC%9A%E2%80%9C%E5%85%AD%E5%B0%8F%E9%BE%99%E2%80%9D%E5%B7%B2%E6%9C%89%E5%9B%9B%E5%AE%B6%E5%86%B2%E5%88%BA%E4%B8%8A%E5%B8%82%EF%BC%8C%E5%B0%86%E6%89%93%E9%80%A0%E7%A7%91%E6%8A%80%E2%80%9C%E5%B0%8F%E9%BE%99%E2%80%9D%E5%AD%B5%E5%8C%96%E5%9C%B0" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-biz" id="d13">
     <div class="news-top">
       <div class="news-num">13</div>
-      <div class="news-title">苹果美国为近期下单用户免费升级 2026 款 M5 系列 MacBook</div>
+      <div class="news-title">大厂抢人才：字节跳动启动最大规模转正实习生招聘，腾讯放话招 1 万人，AI 方向是重点</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，科技媒体 Wccftech 昨日（3 月 5 日）发布博文，报道称基于多名用户反馈，苹果美国为近期下单购买旧款 MacBook 用户送上“大礼”，免费将 M4 系列订单替换为配置相当的 M5 系列机型。包括 u/TheBaHa、u/o2b 在内的多位用户在 Reddit 社区分享换机经历，在苹果发布 2026 款 M5 系列 MacBook 之前，他们订购了旧款 M4
+      IT之家 3 月 6 日消息，2026 年春节刚过，多家互联网大厂开始了新一轮的人才争夺战，尤其是在 AI 高速发展的背景下，AI 人才成了第一招聘目标。字节跳动官方今日发文，2026 实习生招聘启动，提供 7000+ Offer，是字节跳动史上最大规模的转正实习生招聘。字节跳动招聘信息提到，实习生转正率高于 50%，产品、研发岗位薪酬 500 / 天，其他岗位每天 100 多到 400 多不等。
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%8B%B9%E6%9E%9C%E7%BE%8E%E5%9B%BD%E4%B8%BA%E8%BF%91%E6%9C%9F%E4%B8%8B%E5%8D%95%E7%94%A8%E6%88%B7%E5%85%8D%E8%B4%B9%E5%8D%87%E7%BA%A7%202026%20%E6%AC%BE%20M5%20%E7%B3%BB%E5%88%97%20MacBook" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%A4%A7%E5%8E%82%E6%8A%A2%E4%BA%BA%E6%89%8D%EF%BC%9A%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%90%AF%E5%8A%A8%E6%9C%80%E5%A4%A7%E8%A7%84%E6%A8%A1%E8%BD%AC%E6%AD%A3%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%8B%9B%E8%81%98%EF%BC%8C%E8%85%BE%E8%AE%AF%E6%94%BE%E8%AF%9D%E6%8B%9B%201%20%E4%B8%87%E4%BA%BA%EF%BC%8CAI%20%E6%96%B9%E5%90%91%E6%98%AF%E9%87%8D%E7%82%B9" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-biz" id="d14">
     <div class="news-top">
       <div class="news-num">14</div>
-      <div class="news-title">石头 A30 Pro 2.0 洗地机 3 月 10 日上市：首创超能暴风洗，首发价 2399 元</div>
+      <div class="news-title">谷歌宣布 2030 年前投入至少 5000 万美元，遏制“超级污染物”</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，石头科技今日宣布，全新的石头 A30 Pro 2.0 洗地机将于 3 月 10 日上市，首发价 2399 元。京东石头（roborock）A30 Pro2.0 洗地机【AI 全向助力】25kPa 吸力 0 缠毛 90℃ 除菌超薄躺平自动清洗吸拖一体拖地扫地机器人2399 元直达链接2026 年数码家电政府补贴持续进行中，IT 之家为大家汇总国补领券地址，买数码家电之前
+      IT之家 3 月 6 日消息，昨天晚间，谷歌作出最新承诺：在 2030 年前投入至少 5000 万美元（IT之家注：现汇率约合 3.45 亿元人民币），用于支持减少“超级污染物”的相关项目。谷歌还将与亚马逊、Salesforce 等公司一起参与新成立的“超级污染物行动倡议”。上述企业承诺投入总计 1 亿美元，希望加快减少甲烷、黑碳以及制冷剂气体等超级污染物的排放。谷歌碳信用与碳移除负责人兰迪 · 
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E7%9F%B3%E5%A4%B4%20A30%20Pro%202.0%20%E6%B4%97%E5%9C%B0%E6%9C%BA%203%20%E6%9C%88%2010%20%E6%97%A5%E4%B8%8A%E5%B8%82%EF%BC%9A%E9%A6%96%E5%88%9B%E8%B6%85%E8%83%BD%E6%9A%B4%E9%A3%8E%E6%B4%97%EF%BC%8C%E9%A6%96%E5%8F%91%E4%BB%B7%202399%20%E5%85%83" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E8%B0%B7%E6%AD%8C%E5%AE%A3%E5%B8%83%202030%20%E5%B9%B4%E5%89%8D%E6%8A%95%E5%85%A5%E8%87%B3%E5%B0%91%205000%20%E4%B8%87%E7%BE%8E%E5%85%83%EF%BC%8C%E9%81%8F%E5%88%B6%E2%80%9C%E8%B6%85%E7%BA%A7%E6%B1%A1%E6%9F%93%E7%89%A9%E2%80%9D" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-biz" id="d15">
     <div class="news-top">
       <div class="news-num">15</div>
-      <div class="news-title">苹果 iPhone 17e 手机搭载 8GB 内存，与 16e 相同</div>
+      <div class="news-title">绿源推出 D50 休闲三轮车：支持 AI 智能语音交互、蓝牙 / App / 钥匙共享 / 机械钥匙解锁</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，据科技媒体 MacRumors 昨天报道，虽然苹果从不在官方参数表中披露 iPhone 的内存大小，但官方开发工具 Xcode 数据显示，iPhone 17e 手机搭载 8GB 内存。这一内存大小与此前预期一致，并且 8GB 内存也是 Apple 智能的最低内存要求。对比之下，iPhone 17e 的内存大小与 iPhone 16e 一致，均为 8GB。规格方面，iP
+      IT之家 3 月 6 日消息，据“绿源产品营销指南”公众号消息，绿源 D50 休闲三轮车现已发布，号称是“全能移动生活舱”，具备高清倒车影像、超静音差速电机等特性。据介绍，这款三轮车拥有精致通勤风、萌系卡通风两种风格，主要是更改了顶棚、侧边拉花，车身尺寸为 2280*1140*1680mm，具备四开门、大车窗，拥有全视角高清前挡风，标配电动雨刮。规格方面，这款三轮车搭载超静音差速电机，带有大双排座
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E8%8B%B9%E6%9E%9C%20iPhone%2017e%20%E6%89%8B%E6%9C%BA%E6%90%AD%E8%BD%BD%208GB%20%E5%86%85%E5%AD%98%EF%BC%8C%E4%B8%8E%2016e%20%E7%9B%B8%E5%90%8C" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E7%BB%BF%E6%BA%90%E6%8E%A8%E5%87%BA%20D50%20%E4%BC%91%E9%97%B2%E4%B8%89%E8%BD%AE%E8%BD%A6%EF%BC%9A%E6%94%AF%E6%8C%81%20AI%20%E6%99%BA%E8%83%BD%E8%AF%AD%E9%9F%B3%E4%BA%A4%E4%BA%92%E3%80%81%E8%93%9D%E7%89%99%20/%20App%20/%20%E9%92%A5%E5%8C%99%E5%85%B1%E4%BA%AB%20/%20%E6%9C%BA%E6%A2%B0%E9%92%A5%E5%8C%99%E8%A7%A3%E9%94%81" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
@@ -501,48 +491,48 @@
   <div class="news-card c-gov" id="d16">
     <div class="news-top">
       <div class="news-num">16</div>
-      <div class="news-title">Meta 妥协，允许对手聊天机器人在欧洲、巴西通过付费 API 接入 WhatsApp</div>
+      <div class="news-title">别克至境 E7 大五座 SUV 内饰亮相：零重力躺椅、银离子保鲜冷暖箱、二排影院屏等</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，欧盟委员会 2 月上旬曾向 Meta表示，其在社交媒体平台 WhatsApp 上排除第三方 AI 助手的做法可能违反欧盟反垄断规则，欧盟可能会就此发布临时禁令。参考路透社的报道，Meta 在此事上做出了妥协：竞争对手的 AI 聊天机器人未来 12 个月内在欧洲和巴西可通过 WhatsApp Business 付费 API 接入 WhatsApp。Meta 认为这消除了
+      IT之家 3 月 6 日消息，今日，别克至境 E7 大五座 SUV 内饰正式亮相，号称“以「超满配」定义豪华舒适新标准”，该车已定档 2026 年一季度亮相。从官方视频来看，这款新车配备了 7.1.4 杜比全景声、15.6 英寸莱茵认证智慧中控屏、256 色智能交互氛围灯、20 扬声器环绕音响、云感悬浮层座椅（带加热、通风、按摩功能）、伊姆斯零重力躺椅、二排椅背电动调节、护眼智慧顶灯（三档色温可调
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=Meta%20%E5%A6%A5%E5%8D%8F%EF%BC%8C%E5%85%81%E8%AE%B8%E5%AF%B9%E6%89%8B%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8%E6%AC%A7%E6%B4%B2%E3%80%81%E5%B7%B4%E8%A5%BF%E9%80%9A%E8%BF%87%E4%BB%98%E8%B4%B9%20API%20%E6%8E%A5%E5%85%A5%20WhatsApp" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%88%AB%E5%85%8B%E8%87%B3%E5%A2%83%20E7%20%E5%A4%A7%E4%BA%94%E5%BA%A7%20SUV%20%E5%86%85%E9%A5%B0%E4%BA%AE%E7%9B%B8%EF%BC%9A%E9%9B%B6%E9%87%8D%E5%8A%9B%E8%BA%BA%E6%A4%85%E3%80%81%E9%93%B6%E7%A6%BB%E5%AD%90%E4%BF%9D%E9%B2%9C%E5%86%B7%E6%9A%96%E7%AE%B1%E3%80%81%E4%BA%8C%E6%8E%92%E5%BD%B1%E9%99%A2%E5%B1%8F%E7%AD%89" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-gov" id="d17">
     <div class="news-top">
       <div class="news-num">17</div>
-      <div class="news-title">全国政协委员袁小彬：建议取消私家车年审制度，实施远程监测</div>
+      <div class="news-title">消息称 OPPO Reno 下一代考虑新增超大杯 Pro Max</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，据南方都市报 3 月 5 日报道，全国政协委员、中豪律师事务所管委会主席袁小彬在 2026 年全国两会建议取消私家车年审制度，实施远程监测。袁小彬在调研中发现，多部部门规章、地方性法规将处理完毕交通违法作为核发年检合格标志的前置条件，与上位法直接抵触，违规附加条件。二者强制捆绑，使年检偏离安全检测初衷，异化为管理手段。在他看来，非营运私家车强制年检制度每年或消耗巨大的
+      IT之家 3 月 6 日消息，据博主 @数码闲聊站 今日爆料，OPPO Reno 下一代在考虑新增超大杯 Pro Max，新机搭载天玑 N-1 旗舰芯片、6.78"1.5K LTPO 四等边直屏、200Mp 大底主摄 +50Mp 潜望镜，核心增配涨价。IT之家注意到，在售的OPPO Reno15系列手机于去年 11 月发布，分为标准版和 Pro 版，售价 2999 元起，首销 2949 元起。作为
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E5%85%A8%E5%9B%BD%E6%94%BF%E5%8D%8F%E5%A7%94%E5%91%98%E8%A2%81%E5%B0%8F%E5%BD%AC%EF%BC%9A%E5%BB%BA%E8%AE%AE%E5%8F%96%E6%B6%88%E7%A7%81%E5%AE%B6%E8%BD%A6%E5%B9%B4%E5%AE%A1%E5%88%B6%E5%BA%A6%EF%BC%8C%E5%AE%9E%E6%96%BD%E8%BF%9C%E7%A8%8B%E7%9B%91%E6%B5%8B" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E6%B6%88%E6%81%AF%E7%A7%B0%20OPPO%20Reno%20%E4%B8%8B%E4%B8%80%E4%BB%A3%E8%80%83%E8%99%91%E6%96%B0%E5%A2%9E%E8%B6%85%E5%A4%A7%E6%9D%AF%20Pro%20Max" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-gov" id="d18">
     <div class="news-top">
       <div class="news-num">18</div>
-      <div class="news-title">格力电器董明珠：不主张加班，许多简单粗重的劳动已经被机器解放</div>
+      <div class="news-title">Meta AI 智能眼镜陷隐私诉讼，用户敏感视频疑遭外包审核</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，据中国新闻网 3 月 5 日报道，全国人大代表、格力电器董事长董明珠在接受采访时表示，不主张加班。她指出，随着智能化的发展，许多简单粗重的劳动已经被机器解放。当被问及今年是否会为员工加薪时，董明珠回应称：可以考虑！董明珠今年重点围绕“规范平台经济、促进绿色消费和维护市场公平”提出五项建议，包括：压实电商平台打假责任规范二手家电市场推广全生命周期节能采购完善线上税收监管
+      IT之家 3 月 6 日消息，据外媒 TechCrunch 昨天报道，Meta 因其 AI 眼睛的隐私问题面临新诉讼。此前有媒体调查发现，一家位于肯尼亚的外包公司员工正在审核用户视频，包含裸体画面、性行为和上厕所等大量敏感内容。据报道，Meta 曾表示智能眼镜的系统会对图像人脸进行模糊处理。但调查人员表示，这种模糊机制并不能始终正常工作。这一行为随后引起英国监管机构 ICO（IT之家注：信息专员办
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E6%A0%BC%E5%8A%9B%E7%94%B5%E5%99%A8%E8%91%A3%E6%98%8E%E7%8F%A0%EF%BC%9A%E4%B8%8D%E4%B8%BB%E5%BC%A0%E5%8A%A0%E7%8F%AD%EF%BC%8C%E8%AE%B8%E5%A4%9A%E7%AE%80%E5%8D%95%E7%B2%97%E9%87%8D%E7%9A%84%E5%8A%B3%E5%8A%A8%E5%B7%B2%E7%BB%8F%E8%A2%AB%E6%9C%BA%E5%99%A8%E8%A7%A3%E6%94%BE" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=Meta%20AI%20%E6%99%BA%E8%83%BD%E7%9C%BC%E9%95%9C%E9%99%B7%E9%9A%90%E7%A7%81%E8%AF%89%E8%AE%BC%EF%BC%8C%E7%94%A8%E6%88%B7%E6%95%8F%E6%84%9F%E8%A7%86%E9%A2%91%E7%96%91%E9%81%AD%E5%A4%96%E5%8C%85%E5%AE%A1%E6%A0%B8" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-gov" id="d19">
     <div class="news-top">
       <div class="news-num">19</div>
-      <div class="news-title">Anthropic 回应被美国列为国家安全风险实体：将以象征性成本向政府提供 AI 模型及工程师支持</div>
+      <div class="news-title">海淀放大招！90亿资金+近30条政策，重磅释放三大科创关键信号</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）今日发布声明，证实该公司已被美国战争部正式认定为“对美国国家安全构成供应链风险”。Anthropic 表示将对该决定提起法律挑战。阿莫代伊指出，战争部昨日（当地时间 3 月 4 日）致函 Anthropic，确认了这一认定。公司重申上周五的立场，即不认为这一行动具有法律依据，“除了诉诸法庭别
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=Anthropic%20%E5%9B%9E%E5%BA%94%E8%A2%AB%E7%BE%8E%E5%9B%BD%E5%88%97%E4%B8%BA%E5%9B%BD%E5%AE%B6%E5%AE%89%E5%85%A8%E9%A3%8E%E9%99%A9%E5%AE%9E%E4%BD%93%EF%BC%9A%E5%B0%86%E4%BB%A5%E8%B1%A1%E5%BE%81%E6%80%A7%E6%88%90%E6%9C%AC%E5%90%91%E6%94%BF%E5%BA%9C%E6%8F%90%E4%BE%9B%20AI%20%E6%A8%A1%E5%9E%8B%E5%8F%8A%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%94%AF%E6%8C%81" target="_blank" rel="noopener">搜索原文 →</a>
+      
+      <div class="news-tags"><span class="tag">量子位</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=%E6%B5%B7%E6%B7%80%E6%94%BE%E5%A4%A7%E6%8B%9B%EF%BC%8190%E4%BA%BF%E8%B5%84%E9%87%91%2B%E8%BF%9130%E6%9D%A1%E6%94%BF%E7%AD%96%EF%BC%8C%E9%87%8D%E7%A3%85%E9%87%8A%E6%94%BE%E4%B8%89%E5%A4%A7%E7%A7%91%E5%88%9B%E5%85%B3%E9%94%AE%E4%BF%A1%E5%8F%B7" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
@@ -561,60 +551,60 @@
   <div class="news-card c-acad" id="d20">
     <div class="news-top">
       <div class="news-num">20</div>
-      <div class="news-title">“全球首款全金属一体化 5G 手机”：传音展示 Tecno Pova Metal Tonino Lamborghini Edition</div>
+      <div class="news-title">国家发改委主任郑栅洁：“十五五”末 AI 相关产业规模将增长到 10 万亿元以上</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，科技媒体 GSMArena 今天（3 月 6 日）发布博文，报道称在巴塞罗那举办的 MWC 2026 展会期间，传音旗下手机品牌 Tecno 展示推出 Pova Metal Tonino Lamborghini Edition 手机。IT之家注：托尼诺 · 兰博基尼（Tonino Lamborghini）是意大利奢华生活方式品牌，由费鲁吉欧 · 兰博基尼（Ferruc
+      IT之家 3 月 6 日消息，据新华社报道，国家发展改革委主任郑栅洁 3 月 6 日在十四届全国人大四次会议经济主题记者会上说，将深化“人工智能 +”行动，“十五五”末人工智能相关产业规模将增长到 10 万亿元以上。作为参考，中国信息通信研究院先前公布的数据显示，2025 年人工智能核心产业规模有望突破万亿元。同年，生产制造环节的大模型应用增长显著，应用案例占比由去年的 19.9% 增长至 25.
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E2%80%9C%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E5%85%A8%E9%87%91%E5%B1%9E%E4%B8%80%E4%BD%93%E5%8C%96%205G%20%E6%89%8B%E6%9C%BA%E2%80%9D%EF%BC%9A%E4%BC%A0%E9%9F%B3%E5%B1%95%E7%A4%BA%20Tecno%20Pova%20Metal%20Tonino%20Lamborghini%20Edition" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E5%9B%BD%E5%AE%B6%E5%8F%91%E6%94%B9%E5%A7%94%E4%B8%BB%E4%BB%BB%E9%83%91%E6%A0%85%E6%B4%81%EF%BC%9A%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E6%9C%AB%20AI%20%E7%9B%B8%E5%85%B3%E4%BA%A7%E4%B8%9A%E8%A7%84%E6%A8%A1%E5%B0%86%E5%A2%9E%E9%95%BF%E5%88%B0%2010%20%E4%B8%87%E4%BA%BF%E5%85%83%E4%BB%A5%E4%B8%8A" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-acad" id="d21">
     <div class="news-top">
       <div class="news-num">21</div>
-      <div class="news-title">悄然发力：英特尔全面启动 Xe3P 图形架构开源驱动适配工作</div>
+      <div class="news-title">飞行时间 13 年可缩至 6.5 年：MIT 提案让 SpaceX 星舰执行美国探索天王星任务</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，科技媒体 phoronix 昨日（3 月 5 日）发布博文，报道称英特尔已悄然在 Mesa OpenGL 和 Vulkan 驱动中，启动 Xe3P 架构开源适配工作。针对 Xe3P 架构的初步驱动支持还需要几周时间才能上线，后台开发团队仍需完成大量的基础适配工作，负责 OpenGL 的“Iris”驱动与负责 Vulkan 的“ANV”驱动均已进入筹备阶段。英特尔开发者
+      IT之家 3 月 6 日消息，科技媒体 scitechdaily 今天（3 月 6 日）发布博文，报道称麻省理工学院（MIT）研究人员提出，SpaceX 的“星舰”（Starship）有望加速美国宇航局（NASA）筹备中的天王星轨道器与探测器（UOP）任务。天王星在 2022 年被美国国家科学院的《十年规划》列为旗舰任务首选目标，但这颗冰巨星至今鲜有探测器造访，唯一的访客是匆匆飞掠的“旅行者 2 
       <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E6%82%84%E7%84%B6%E5%8F%91%E5%8A%9B%EF%BC%9A%E8%8B%B1%E7%89%B9%E5%B0%94%E5%85%A8%E9%9D%A2%E5%90%AF%E5%8A%A8%20Xe3P%20%E5%9B%BE%E5%BD%A2%E6%9E%B6%E6%9E%84%E5%BC%80%E6%BA%90%E9%A9%B1%E5%8A%A8%E9%80%82%E9%85%8D%E5%B7%A5%E4%BD%9C" target="_blank" rel="noopener">搜索原文 →</a>
+      <a class="news-link" href="https://www.google.com/search?q=%E9%A3%9E%E8%A1%8C%E6%97%B6%E9%97%B4%2013%20%E5%B9%B4%E5%8F%AF%E7%BC%A9%E8%87%B3%206.5%20%E5%B9%B4%EF%BC%9AMIT%20%E6%8F%90%E6%A1%88%E8%AE%A9%20SpaceX%20%E6%98%9F%E8%88%B0%E6%89%A7%E8%A1%8C%E7%BE%8E%E5%9B%BD%E6%8E%A2%E7%B4%A2%E5%A4%A9%E7%8E%8B%E6%98%9F%E4%BB%BB%E5%8A%A1" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-acad" id="d22">
     <div class="news-top">
       <div class="news-num">22</div>
-      <div class="news-title">中兴发布全球首款 Al + Wi-Fi 8 室内 CPE 及全球首款毫米波室外 5G-A CPE，摘获三项 MWC26 GLOMO 国际大奖</div>
+      <div class="news-title">黑马图像模型被Nano Banana技术负责人点赞，15人华人小队，DDIM之父&CVPR最佳论文作者带队</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，中兴通讯在 MWC26 巴塞罗那期间发布了全球首款 Al + Wi-Fi 8 室内 CPE，以及全球首款毫米波室外 5G-A CPE 中兴 G6 Max 两款新品，同期还展示直播设备 TopFlow。室内型 G6 Ultra：支持 Wi-Fi 8 技术，标称速率 10Gbps，配备 14dBi 增益天线与 AI 信号追踪技术；室外型 G6 Max：兼容 Sub6G /
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E4%B8%AD%E5%85%B4%E5%8F%91%E5%B8%83%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%20Al%20%2B%20Wi-Fi%208%20%E5%AE%A4%E5%86%85%20CPE%20%E5%8F%8A%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E6%AF%AB%E7%B1%B3%E6%B3%A2%E5%AE%A4%E5%A4%96%205G-A%20CPE%EF%BC%8C%E6%91%98%E8%8E%B7%E4%B8%89%E9%A1%B9%20MWC26%20GLOMO%20%E5%9B%BD%E9%99%85%E5%A4%A7%E5%A5%96" target="_blank" rel="noopener">搜索原文 →</a>
+      多项能力看齐行业标杆
+      <div class="news-tags"><span class="tag">36kr</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=%E9%BB%91%E9%A9%AC%E5%9B%BE%E5%83%8F%E6%A8%A1%E5%9E%8B%E8%A2%ABNano%20Banana%E6%8A%80%E6%9C%AF%E8%B4%9F%E8%B4%A3%E4%BA%BA%E7%82%B9%E8%B5%9E%EF%BC%8C15%E4%BA%BA%E5%8D%8E%E4%BA%BA%E5%B0%8F%E9%98%9F%EF%BC%8CDDIM%E4%B9%8B%E7%88%B6%26CVPR%E6%9C%80%E4%BD%B3%E8%AE%BA%E6%96%87%E4%BD%9C%E8%80%85%E5%B8%A6%E9%98%9F" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-acad" id="d23">
     <div class="news-top">
       <div class="news-num">23</div>
-      <div class="news-title">南亚科技启动定制化 AI 内存研发，有望今年下半年公布进展</div>
+      <div class="news-title">arXiv创始人亲测：水论文这一块，Grok最强，Claude最不配合</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，据中国台湾地区媒体《工商时报》昨天报道，南亚科技最近首度对外披露定制化 AI 内存研发进度，部分产品已经进入试产阶段，今年下半年预计会有更多具体成果。据介绍，南亚科技开发的 AI 内存采用 UltraWIO（IT之家注：Ultra Wide I/O）架构，能够与客户的 AI 运算引擎紧密结合，概念上类似 HBM 与 GPU 之间的运作模式，通过大幅增加数据通道与频宽提
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E5%8D%97%E4%BA%9A%E7%A7%91%E6%8A%80%E5%90%AF%E5%8A%A8%E5%AE%9A%E5%88%B6%E5%8C%96%20AI%20%E5%86%85%E5%AD%98%E7%A0%94%E5%8F%91%EF%BC%8C%E6%9C%89%E6%9C%9B%E4%BB%8A%E5%B9%B4%E4%B8%8B%E5%8D%8A%E5%B9%B4%E5%85%AC%E5%B8%83%E8%BF%9B%E5%B1%95" target="_blank" rel="noopener">搜索原文 →</a>
+      平均5分钟一篇新AI论文，arXiv快崩了
+      <div class="news-tags"><span class="tag">36kr</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=arXiv%E5%88%9B%E5%A7%8B%E4%BA%BA%E4%BA%B2%E6%B5%8B%EF%BC%9A%E6%B0%B4%E8%AE%BA%E6%96%87%E8%BF%99%E4%B8%80%E5%9D%97%EF%BC%8CGrok%E6%9C%80%E5%BC%BA%EF%BC%8CClaude%E6%9C%80%E4%B8%8D%E9%85%8D%E5%90%88" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
   <div class="news-card c-acad" id="d24">
     <div class="news-top">
       <div class="news-num">24</div>
-      <div class="news-title">华为发布业界首款 Wi-Fi 7 三频 FTTR 全光家庭解决方案：全屋 3000Mbps、10ms 超低时延</div>
+      <div class="news-title">直击2026 MWC：物理AI的“中国时刻”已经来到</div>
     </div>
     <div class="news-body">
-      IT之家 3 月 6 日消息，华为光接入网部门在 MWC26 巴塞罗那期间发布了四款家庭网络新品，例如业界首款 Wi-Fi 7 三频 FTTR 全光家庭解决方案。IT之家汇总如下：业界首款 Wi-Fi 7 三频 ONT 及 Mesh 组网方案该方案采用三频 3+3+3 技术，标称单点速率超 4Gbps，与 Wi-Fi 7 接入点组网可实现全屋 500Mbps 覆盖及 10 毫秒延迟切换。业界首款
-      <div class="news-tags"><span class="tag">IT之家</span></div>
-      <a class="news-link" href="https://www.google.com/search?q=%E5%8D%8E%E4%B8%BA%E5%8F%91%E5%B8%83%E4%B8%9A%E7%95%8C%E9%A6%96%E6%AC%BE%20Wi-Fi%207%20%E4%B8%89%E9%A2%91%20FTTR%20%E5%85%A8%E5%85%89%E5%AE%B6%E5%BA%AD%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%EF%BC%9A%E5%85%A8%E5%B1%8B%203000Mbps%E3%80%8110ms%20%E8%B6%85%E4%BD%8E%E6%97%B6%E5%BB%B6" target="_blank" rel="noopener">搜索原文 →</a>
+      中国智造下的AI新叙事
+      <div class="news-tags"><span class="tag">36kr</span></div>
+      <a class="news-link" href="https://www.google.com/search?q=%E7%9B%B4%E5%87%BB2026%20MWC%EF%BC%9A%E7%89%A9%E7%90%86AI%E7%9A%84%E2%80%9C%E4%B8%AD%E5%9B%BD%E6%97%B6%E5%88%BB%E2%80%9D%E5%B7%B2%E7%BB%8F%E6%9D%A5%E5%88%B0" target="_blank" rel="noopener">搜索原文 →</a>
     </div>
   </div>
 
